@@ -4,11 +4,17 @@ import { Link } from 'react-router-dom';
 export default class Header extends React.Component {
   render() {
     return (
-      <div>
-        <section classname="headerLogo">
+      <div className="header">
+        <div className="logo">
+          <img src="https://cdn.discordapp.com/attachments/701514992767205459/719990948347641976/EM8R5.jpg" alt="Logan's logo" />
 
-        </section>
-        <section className="nav">
+        </div>
+        <div className="title">
+          <h2>Logan Stribling, </h2>
+          <p>Full-Stack Developer</p>
+        </div>
+
+        <div className="nav">
           <Link to='/'>
             <button>
               home
@@ -39,7 +45,7 @@ export default class Header extends React.Component {
               projects
             </button>
           </Link>
-        </section>
+        </div>
 
       </div>
     )

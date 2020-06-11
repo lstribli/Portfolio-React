@@ -8,7 +8,7 @@ import SkillsPage from './Components/SkillsPage';
 import ContactPage from './Components/ContactPage';
 import ResumePage from './Components/ResumePage';
 import ProjectsPage from './Components/ProjectsPage';
-
+import ExpandedProject from './Components/ExpandedProject'
 
 export default class App extends React.Component {
 
@@ -57,6 +57,11 @@ export default class App extends React.Component {
               exact
               path="/projects"
               component={ProjectsPage}
+            />
+            <Route
+              exact
+              path="/project"
+              component={ExpandedProject}
             />
           </Switch>
         </main>

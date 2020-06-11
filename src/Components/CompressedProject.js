@@ -1,13 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Context from '../Contexts/Context'
-
-
-export default class HomePage extends React.Component {
+export default class CompressedProject extends React.Component {
   static contextType = Context;
+
   render() {
-    // console.log(this.context)
+
     return (
-      <div>homepage</div>
+      <div>
+
+      </div>
     )
   }
 }
+
