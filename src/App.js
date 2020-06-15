@@ -60,7 +60,7 @@ export default class App extends React.Component {
             />
             <Route
               exact
-              path="/project"
+              path="/project/:id"
               component={ExpandedProject}
             />
           </Switch>

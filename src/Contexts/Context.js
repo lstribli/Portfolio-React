@@ -70,7 +70,7 @@ const Context = React.createContext({
         }
       },
       urls: {
-        frontEnd: "https://vercel.com/lstribli/ragequit-client/khe099oub",
+        frontEnd: "https://ragequit-client.now.sh/",
         server: "",
         database: "",
         github: "https://github.com/lstribli/RageQuit-",

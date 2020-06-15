@@ -37,6 +37,9 @@ export default class ProjectsPage extends React.Component {
                   alt={project.screens.alts.one}
                 />
               </a>
+              <button>
+                More
+              </button>
               <p></p>
             </li>)}
         </ul>
