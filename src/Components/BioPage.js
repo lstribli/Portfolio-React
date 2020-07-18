@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import Context from '../Contexts/Context'
+import Carousel from './Carousel/Carousel';
+import '../Components/Carousel/Carousel.css';
 
-export default class BioPage extends React.Component {
-  render() {
-    return (
-      <div>bio</div>
-    )
-  }
+
+
+export default function BioPage(props) {
+  const dataContext = useContext(Context)
+  console.log(dataContext)
+  return (
+    <div>
+
+    </div>
+  )
 }

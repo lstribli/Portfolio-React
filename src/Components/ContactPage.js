@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import Context from '../Contexts/Context'
 
-export default class ContactPage extends React.Component {
-  render() {
-    return (
-      <div>contact</div>
-    )
-  }
+export default function ContactPage() {
+  const dataContext = useContext(Context)
+  console.log(dataContext)
+  return (
+    <div>contact</div>
+  )
 }

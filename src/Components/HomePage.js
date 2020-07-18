@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Context from '../Contexts/Context'
+import Carousel from '../Components/Carousel/Carousel'
 
+export default function HomePage() {
+  const dataContext = useContext(Context)
+  console.log(dataContext)
 
-export default class HomePage extends React.Component {
-  static contextType = Context;
-  render() {
-    // console.log(this.context)
-    return (
-      <div>homepage</div>
-    )
-  }
+  // console.log(this.context)
+  return (
+    <div><Carousel /></div>
+  )
+
 }

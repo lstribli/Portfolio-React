@@ -1,16 +1,49 @@
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(41, 41, 41);
+  background-color: #4baccc;
   font-family: "Manrope", sans-serif;
+  height: auto;
 }
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: auto;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+#mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 header {
   display: flex;
@@ -22,8 +55,8 @@ header {
 header button {
   margin: 10px;
   border: none;
-  color: rgb(219, 231, 231);
-  background-color: rgb(41, 41, 41);
+  color: #003459;
+  background-color: #4baccc;
   height: 40px;
   width: 100px;
   font-size: 20px;
@@ -41,7 +74,7 @@ header button:hover {
   margin: 10px;
   margin-top: 30px;
   border-radius: 5px;
-  background-color: rgba(131, 131, 131, 0.678);
+  background-color: #71f075;
 }
 .header {
   display: flex;
@@ -73,7 +106,7 @@ header h2 {
   height: 40px;
   padding: 0px;
   line-height: 0em;
-  color: rgb(219, 231, 231);
+  color: #003459;
   margin: none;
 }
 h3 {
@@ -83,7 +116,7 @@ h3 {
   justify-content: center;
   padding: 0px;
   font-size: 32px;
-  color: rgb(219, 231, 231);
+  color: #003459;
   margin: none;
 }
 header p {
@@ -95,7 +128,7 @@ header p {
   height: 40px;
   padding: 0px;
   line-height: 0em;
-  color: rgb(219, 231, 231);
+  color: #003459;
   margin: none;
 }
 p {
@@ -103,11 +136,24 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 300px;
   padding: 0px;
   line-height: 1.47rem;
-  color: rgb(219, 231, 231);
+  color: #003459;
   margin: none;
+  height: auto;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 0px;
+  line-height: 1.47rem;
+  color: #003459;
+  margin: none;
+  height: auto;
 }
 .logo {
   width: 60px;
@@ -122,25 +168,25 @@ header img {
   margin: 20px;
 }
 img {
-  max-width: 600px;
+  max-width: 400px;
   height: auto;
   border-radius: 25px;
-  box-shadow: 0px 0px 5px magenta;
+  box-shadow: 0px 0px 5px #8c00ff;
   margin: 20px;
 }
 img:hover {
-  box-shadow: 0px 0px 25px whitesmoke;
-  -webkit-transition: all 100ms ease;
-  -moz-transition: all 100ms ease;
-  -ms-transition: all 100ms ease;
-  -o-transition: all 100ms ease;
-  transition: all 100ms ease;
+  box-shadow: 0px 0px 25px #71f075;
+  -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -ms-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease;
 }
 .github {
   max-width: 150px;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0px 0px 5px magenta;
+  box-shadow: 0px 0px 5px #8c00ff;
   margin: 20px;
 }
 .nav {
@@ -153,17 +199,10 @@ img:hover {
   margin-left: 140px;
 }
 
-.projects {
+#projects {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-}
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 90px;
+  width: 100%;
 }

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import Context from '../Contexts/Context'
 
-export default class ResumePage extends React.Component {
-  render() {
-    return (
-      <div>resume</div>
-    )
-  }
+export default function ResumePage() {
+  const dataContext = useContext(Context)
+  console.log(dataContext)
+  return (
+    <div>resume</div>
+  )
+
 }

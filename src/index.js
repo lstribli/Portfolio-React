@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import { portContextProvider } from './Contexts/Context';
 ReactDOM.render(
 
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+
+  <BrowserRouter>
+
+    <App />
+
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
