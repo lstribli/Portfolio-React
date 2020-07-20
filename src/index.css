@@ -131,18 +131,7 @@ header p {
   color: #003459;
   margin: none;
 }
-p {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  padding: 0px;
-  line-height: 1.47rem;
-  color: #003459;
-  margin: none;
-  height: auto;
-}
+
 ul {
   display: flex;
   flex-direction: column;

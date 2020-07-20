@@ -3,24 +3,25 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100px;
 }
 #carousel {
   display: absolute;
   width: 100%;
-  perspective: 1400px;
+  perspective: 2400px;
   font-size: 0.8rem;
   color: #13315c;
   font-size: 1.2rem;
   margin-bottom: 3rem;
+  margin-top: 70px;
+  margin: auto;
 }
 
 figure#spinner {
   transform-style: preserve-3d;
-  height: 00px;
-  transform-origin: 50% 50% -500px;
+  transform-origin: 50% 50% -140px;
   transition: 1s;
-  height: 1000px;
+  height: 400px;
 }
 #captionContainer {
   display: flex;
@@ -30,8 +31,9 @@ figure#spinner {
   background-color: rgba(36, 49, 58, 0.719);
   border-radius: 20px;
   border: 2px solid #364958;
-  padding: 100px;
+  padding: 25px;
   margin-top: 0px;
+  width: 250px;
 }
 #captionSubContainer {
   display: flex;
@@ -43,7 +45,26 @@ figure#spinner {
   border: 2px solid #00508a;
   padding: 0px;
   margin-top: 0px;
-  width: 120%;
+  width: 230px;
+}
+#captionSubContainer img {
+  max-width: 215px;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px #8c00ff;
+  margin: 20px;
+}
+#captionSubContainer p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 0px;
+  line-height: 1.47rem;
+  color: #003459;
+  margin: 15px;
+  height: auto;
 }
 figure#spinner figcaption {
   display: flex;
@@ -51,10 +72,10 @@ figure#spinner figcaption {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  max-width: 425px;
+  max-width: 280px;
   position: absolute;
   left: 25%;
-  transform-origin: 50% 50% -500px;
+  transform-origin: 50% 50% -140px;
   outline: 1px solid transparent;
 }
 
@@ -71,14 +92,24 @@ figure#spinner figcaption:nth-child(4) {
   transform: rotateY(-270deg);
 }
 
+.buttonsContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+}
 .ss-icon {
+  position: fixed;
   color: #13315c;
   display: inline-block;
   text-decoration: none;
-  font-size: 5rem;
+  font-size: 2rem;
   transition: 0.6s color;
   position: relative;
-  margin: 10px;
+  margin: none;
+  margin-top: 0px;
   border-bottom: none;
   line-height: 0;
 }
@@ -86,4 +117,484 @@ figure#spinner figcaption:nth-child(4) {
 .ss-icon:hover {
   color: #71f075;
   cursor: pointer;
+}
+@media screen and (min-width: 360px) {
+  #carContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
+  #carousel {
+    display: absolute;
+    width: 100%;
+    perspective: 2400px;
+    font-size: 0.8rem;
+    color: #13315c;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    margin-top: 70px;
+    margin: auto;
+  }
+
+  figure#spinner {
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% -140px;
+    transition: 1s;
+    height: 400px;
+  }
+  #captionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(36, 49, 58, 0.719);
+    border-radius: 20px;
+    border: 2px solid #364958;
+    padding: 25px;
+    margin-top: 0px;
+    width: 250px;
+  }
+  #captionSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #55a8b9;
+    border-radius: 20px;
+    border: 2px solid #00508a;
+    padding: 0px;
+    margin-top: 0px;
+    width: 230px;
+  }
+  #captionSubContainer img {
+    max-width: 215px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #8c00ff;
+    margin: 20px;
+  }
+  #captionSubContainer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0px;
+    line-height: 1.47rem;
+    color: #003459;
+    margin: 15px;
+    height: auto;
+  }
+  figure#spinner figcaption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 280px;
+    position: absolute;
+    left: 25%;
+    transform-origin: 50% 50% -140px;
+    outline: 1px solid transparent;
+  }
+
+  figure#spinner figcaption:nth-child(1) {
+    transform: rotateY(0deg);
+  }
+  figure#spinner figcaption:nth-child(2) {
+    transform: rotateY(-90deg);
+  }
+  figure#spinner figcaption:nth-child(3) {
+    transform: rotateY(-180deg);
+  }
+  figure#spinner figcaption:nth-child(4) {
+    transform: rotateY(-270deg);
+  }
+
+  .buttonsContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .ss-icon {
+    position: fixed;
+    color: #13315c;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    transition: 0.6s color;
+    position: relative;
+    margin: none;
+    margin-top: 0px;
+    border-bottom: none;
+    line-height: 0;
+  }
+
+  .ss-icon:hover {
+    color: #71f075;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 400px) {
+  #carContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
+  #carousel {
+    display: absolute;
+    width: 100%;
+    perspective: 2400px;
+    font-size: 0.8rem;
+    color: #13315c;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    margin-top: 70px;
+    margin: auto;
+  }
+
+  figure#spinner {
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% -140px;
+    transition: 1s;
+    height: 400px;
+  }
+  #captionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(36, 49, 58, 0.719);
+    border-radius: 20px;
+    border: 2px solid #364958;
+    padding: 25px;
+    margin-top: 0px;
+    width: 250px;
+  }
+  #captionSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #55a8b9;
+    border-radius: 20px;
+    border: 2px solid #00508a;
+    padding: 0px;
+    margin-top: 0px;
+    width: 230px;
+  }
+  #captionSubContainer img {
+    max-width: 215px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #8c00ff;
+    margin: 20px;
+  }
+  #captionSubContainer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0px;
+    line-height: 1.47rem;
+    color: #003459;
+    margin: 15px;
+    height: auto;
+  }
+  figure#spinner figcaption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 280px;
+    position: absolute;
+    left: 25%;
+    transform-origin: 50% 50% -140px;
+    outline: 1px solid transparent;
+  }
+
+  figure#spinner figcaption:nth-child(1) {
+    transform: rotateY(0deg);
+  }
+  figure#spinner figcaption:nth-child(2) {
+    transform: rotateY(-90deg);
+  }
+  figure#spinner figcaption:nth-child(3) {
+    transform: rotateY(-180deg);
+  }
+  figure#spinner figcaption:nth-child(4) {
+    transform: rotateY(-270deg);
+  }
+
+  .buttonsContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+  }
+  .ss-icon {
+    position: fixed;
+    color: #13315c;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 4rem;
+    transition: 0.6s color;
+    position: relative;
+    margin: none;
+    margin-top: 0px;
+    border-bottom: none;
+    line-height: 0;
+  }
+
+  .ss-icon:hover {
+    color: #71f075;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 600px) {
+  #carContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+  }
+  #carousel {
+    display: absolute;
+    width: 100%;
+    perspective: 1200px;
+    font-size: 0.8rem;
+    color: #13315c;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    margin-top: 70px;
+    margin: auto;
+  }
+
+  figure#spinner {
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% -200px;
+    transition: 1s;
+    height: 400px;
+  }
+  #captionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(36, 49, 58, 0.719);
+    border-radius: 20px;
+    border: 2px solid #364958;
+    padding: 25px;
+    margin-top: 0px;
+    width: 250px;
+  }
+  #captionSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #55a8b9;
+    border-radius: 20px;
+    border: 2px solid #00508a;
+    padding: 0px;
+    margin-top: 0px;
+    width: 230px;
+  }
+  #captionSubContainer img {
+    max-width: 215px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #8c00ff;
+    margin: 20px;
+  }
+  #captionSubContainer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0px;
+    line-height: 1.47rem;
+    color: #003459;
+    margin: 15px;
+    height: auto;
+  }
+  figure#spinner figcaption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 280px;
+    position: absolute;
+    left: 25%;
+    transform-origin: 50% 50% -200px;
+    outline: 1px solid transparent;
+  }
+
+  figure#spinner figcaption:nth-child(1) {
+    transform: rotateY(0deg);
+  }
+  figure#spinner figcaption:nth-child(2) {
+    transform: rotateY(-90deg);
+  }
+  figure#spinner figcaption:nth-child(3) {
+    transform: rotateY(-180deg);
+  }
+  figure#spinner figcaption:nth-child(4) {
+    transform: rotateY(-270deg);
+  }
+
+  .buttonsContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+  }
+  .ss-icon {
+    position: fixed;
+    color: #13315c;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 5rem;
+    transition: 0.6s color;
+    position: relative;
+    margin: none;
+    margin-top: 0px;
+    border-bottom: none;
+    line-height: 0;
+  }
+
+  .ss-icon:hover {
+    color: #71f075;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #carContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+  }
+  #carousel {
+    display: absolute;
+    width: 100%;
+    perspective: 1600px;
+    font-size: 0.8rem;
+    color: #13315c;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  figure#spinner {
+    transform-style: preserve-3d;
+    height: 00px;
+    transform-origin: 50% 50% -400px;
+    transition: 1s;
+    height: 1000px;
+  }
+  #captionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(36, 49, 58, 0.719);
+    border-radius: 20px;
+    border: 2px solid #364958;
+    padding: 25px;
+    margin-top: 0px;
+    width: 425px;
+  }
+  #captionSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #55a8b9;
+    border-radius: 20px;
+    border: 2px solid #00508a;
+    padding: 0px;
+    margin-top: 0px;
+    width: 100%;
+  }
+  #captionSubContainer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0px;
+    line-height: 1.47rem;
+    color: #003459;
+    margin: 25px;
+    height: auto;
+  }
+  figure#spinner figcaption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    left: 25%;
+    transform-origin: 50% 50% -400px;
+    outline: 1px solid transparent;
+  }
+
+  figure#spinner figcaption:nth-child(1) {
+    transform: rotateY(0deg);
+  }
+  figure#spinner figcaption:nth-child(2) {
+    transform: rotateY(-90deg);
+  }
+  figure#spinner figcaption:nth-child(3) {
+    transform: rotateY(-180deg);
+  }
+  figure#spinner figcaption:nth-child(4) {
+    transform: rotateY(-270deg);
+  }
+  .buttonsContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: -360px;
+  }
+  .ss-icon {
+    position: fixed;
+    color: #13315c;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 5rem;
+    transition: 0.6s color;
+    position: relative;
+    margin: 10px;
+    margin-top: 0px;
+    border-bottom: none;
+    line-height: 0;
+  }
+
+  .ss-icon:hover {
+    color: #71f075;
+    cursor: pointer;
+  }
 }

@@ -23,8 +23,6 @@ const Carousel = (props) => {
   return (
     <div id="carContainer">
 
-      <span style={{ float: 'left' }} className="ss-icon" onClick={() => galleryspin('-')}>&lt;</span>
-
 
       <div id="carousel">
         <figure ref={spinnerRef} id="spinner">
@@ -57,7 +55,11 @@ const Carousel = (props) => {
 
         </figure>
       </div>
-      <span style={{ float: 'right' }} className="ss-icon" onClick={() => galleryspin('')}>&gt;</span>
+      <div className="buttonsContainer">
+        <span style={{ float: 'left' }} className="ss-icon" onClick={() => galleryspin('-')}>&lt;</span>
+        <span style={{ float: 'right' }} className="ss-icon" onClick={() => galleryspin('')}>&gt;</span>
+
+      </div>
     </div>
   );
 }
