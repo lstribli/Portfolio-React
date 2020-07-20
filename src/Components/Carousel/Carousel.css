@@ -98,14 +98,15 @@ figure#spinner figcaption:nth-child(4) {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 320px;
+  width: 300px;
+  margin-top: -500px;
 }
 .ss-icon {
   position: fixed;
-  color: #13315c;
+  color: #71f075;
   display: inline-block;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3.5rem;
   transition: 0.6s color;
   position: relative;
   margin: none;
@@ -223,10 +224,10 @@ figure#spinner figcaption:nth-child(4) {
   }
   .ss-icon {
     position: fixed;
-    color: #13315c;
+    color: #71f075;
     display: inline-block;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 3.5rem;
     transition: 0.6s color;
     position: relative;
     margin: none;
@@ -234,7 +235,6 @@ figure#spinner figcaption:nth-child(4) {
     border-bottom: none;
     line-height: 0;
   }
-
   .ss-icon:hover {
     color: #71f075;
     cursor: pointer;
@@ -348,7 +348,7 @@ figure#spinner figcaption:nth-child(4) {
     color: #13315c;
     display: inline-block;
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 3.5rem;
     transition: 0.6s color;
     position: relative;
     margin: none;
@@ -456,7 +456,6 @@ figure#spinner figcaption:nth-child(4) {
   figure#spinner figcaption:nth-child(4) {
     transform: rotateY(-270deg);
   }
-
   .buttonsContainer {
     position: fixed;
     display: flex;
@@ -478,7 +477,6 @@ figure#spinner figcaption:nth-child(4) {
     border-bottom: none;
     line-height: 0;
   }
-
   .ss-icon:hover {
     color: #71f075;
     cursor: pointer;
