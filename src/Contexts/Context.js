@@ -269,13 +269,13 @@ const portContext = React.createContext({
       general: {
         title: "Machining",
         description: "While you won't find me on the shop production floor these days, I have an in-depth understanding of how an ISO-9001 Certified shop operates.",
-        audience: "I still bring value to the world of machining by working as a product and process engineering consultant.",
+        audience: "I bring value to the world of machining by working as a product and process engineering consultant.",
       },
       tech: {
         languages: {
-          frontEnd: ['5-axis Milling', '7-axis Swiss Machining', 'Exotic metals: I.E. Monel 500', 'Copper-Beryllium alloys', 'Glass-reinforced composites: I.E. G-10', 'Polyester Elastomers: I.E. Hytrel'],
-          server: ['Certified Machine Maintenance Tech by Tsugami'],
-          database: ['Inititalization for fully autonomous mass-machining', 'Proper use, care and implementation of all Metrology tools', 'CMM programming and measurement', 'Precision Machining of exotic materials (geometric tolerances of .0002")']
+          frontEnd: ['5-axis Milling', '7-axis Swiss Machining', 'Exotic metals', 'Copper-Beryllium alloys', 'Glass-reinforced composites', 'Polyester Elastomers'],
+          server: ['Certified Tsugami Maintenance Tech'],
+          database: ['Fully autonomous mass-machining', 'Proper use and care of all Metrology tools', 'CMM programming and measurement', 'Precision Machining of exotic materials (geometric tolerances of .0002")']
         },
         libraries: [],
         localTech: {
@@ -664,182 +664,26 @@ const portContext = React.createContext({
   bio: [
     {
       id: 1,
-      general: {
-        title: "Aura",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
+      title: "Where I'm from",
+      desc: "I am originally from Makawao, HI. I grew up surfing the beaches and exploring the jungles of the island of Maui. In my high school years my family was relocated to Albuqeruque, NM where I found a passion for CAD and engineering systems. For the next ten years I studied and worked in high-tech manufacturing, opening more opportunities for myself and moving again to Colorado, eventually settling in downtown Louisville. Here I enjoy every mountain sport there is and living life with my friends and family that I've found here.",
+      url: "https://media.discordapp.net/attachments/701514992767205459/735012793933234196/xcdfYF.jpg",
+      alt: "Sunset in Wailea",
+      hoping: "What I hope to do",
     },
-
-
     {
       id: 2,
-      general: {
-        title: "RageQuit! 2x+",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
+      title: "What I'm Doing",
+      desc: "I'm a software engineer, machinist and maker. Fueled by my beliefs that aesthetics and user experience are an essential integration to everything we make or use, I bring a unique approach to design in everything I do. Currently a student at Thinkful, I'm learning the skills to create powerful, user-friendly applications for machine and server interfaces with limitless applications. My extensive experience in manufacturing ensures I will understand the challenges your business faces and create a tailor- made solution that will maximize your efficiency. It is my personal mission to create tools that push businesses to be competitive at the next level, whether its a small shop looking to expand or a business of thirty years.",
+      url: "",
+      alt: "",
     },
-
-
     {
       id: 3,
-      general: {
-        title: "Jquery Portfolio",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
+      title: "What I'm Doing",
+      desc: "Through everything I have and will do, I aspire to be the best designer and human being I can be. I hope to use all of my skills and experience to contribute to deepening our knowledge of the cosmos, working with a talented team of developers to create applications and software to support the aerospace industry and all applicable applied sciences. Increasing the level of our world's technology means increasing the opportunities and quality of life available to everyone and a great deal of these technologies have come from the continued development of space exploration programs.",
+      url: "",
+      alt: "",
     },
-
-
-    {
-      id: 4,
-      general: {
-        title: "QuizApp",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
-    }
   ]
 })
 export default portContext;

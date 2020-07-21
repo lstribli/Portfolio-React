@@ -15,8 +15,9 @@ header button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 190px;
   height: 75px;
+  width: 230px;
+  margin-top: 185px;
 }
 header {
   display: flex;
@@ -24,6 +25,7 @@ header {
   align-items: center;
   justify-content: center;
   margin: 0px;
+  width: 230px;
 }
 header button {
   margin: 10px;
@@ -87,7 +89,7 @@ header img {
   margin-top: 0px;
   width: 230px;
   height: 40px;
-  line-height: 2.23rem;
+  line-height: 1rem;
 }
 .logo {
   display: flex;
@@ -100,12 +102,14 @@ header img {
 }
 @media screen and (min-width: 600px) {
   .header {
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 75px;
+    width: 800px;
     height: 75px;
+    padding: 60px;
   }
   header {
     display: flex;
@@ -113,6 +117,111 @@ header img {
     align-items: center;
     justify-content: center;
     margin: 0px;
+  }
+  header button {
+    margin: 10px;
+    border: none;
+    color: #003459;
+    background-color: #4baccc;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: inherit;
+    outline: none;
+  }
+  header button:hover {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #71f075;
+  }
+  header h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 0px;
+    line-height: 0em;
+    color: #003459;
+    margin: none;
+  }
+  header p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    padding: 0px;
+    line-height: 0em;
+    color: #003459;
+    margin: none;
+  }
+  header img {
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px black;
+    margin: 0px;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    border: 2px black;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 230px;
+    height: 40px;
+    line-height: 2.23rem;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    margin: 5px;
+    border: 10px black;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 75px;
+    padding: 60px;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 50px;
   }
   header button {
     margin: 10px;

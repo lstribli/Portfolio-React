@@ -3,8 +3,8 @@ import Header from './Components/Header'
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './Components/HomePage';
-import BioPage from './Components/BioPage';
-import SkillsPage from './Components/SkillsPage';
+import BioPage from './Components/Bio/BioPage';
+import SkillsPage from './Components/Skills/SkillsPage';
 import ContactPage from './Components/ContactPage';
 import ResumePage from './Components/ResumePage';
 import ProjectsPage from './Components/ProjectsPage';

@@ -18,19 +18,13 @@ const Carousel = (props) => {
     }
 
   }
-  console.log(props.projects[0].urls.frontEnd)
-  console.log(props)
   return (
     <div id="carContainer">
-
-
       <div id="carousel">
-        <figure ref={spinnerRef} id="spinner">
-
+        <figure ref={spinnerRef} id="PROJspinner">
           {props.projects.map(project =>
             <figcaption>
               <div id="captionContainer">
-
                 <div id="captionSubContainer">
                   <h2>{project.general.title}</h2>
                   {/* <SMOLCarousel /> */}
@@ -49,16 +43,13 @@ const Carousel = (props) => {
                   </a>
                 </div>
               </div>
-
             </figcaption>
           )}
-
         </figure>
       </div>
       <div className="buttonsContainer">
         <span style={{ float: 'left' }} className="ss-icon" onClick={() => galleryspin('-')}>&lt;</span>
         <span style={{ float: 'right' }} className="ss-icon" onClick={() => galleryspin('')}>&gt;</span>
-
       </div>
     </div>
   );

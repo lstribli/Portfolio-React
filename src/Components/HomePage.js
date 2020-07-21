@@ -8,7 +8,7 @@ export default function HomePage() {
 
   // console.log(this.context)
   return (
-    <div><Carousel /></div>
+    <div>{Carousel(dataContext)}</div>
   )
 
 }

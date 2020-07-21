@@ -5,6 +5,31 @@ html {
   justify-content: center;
   height: auto;
 }
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    figure#PROJspinner {
+      -webkit-transform-origin: center;
+    }
+  }
+}
+
+/* Safari 10.1 */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (not (stroke-color: transparent)) {
+    figure#PROJspinner {
+      -webkit-transform-origin: center;
+    }
+  }
+}
+
+/* Safari 6.1-10.0 (not 10.1) */
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    figure#PROJspinner {
+      -webkit-transform-origin: center;
+    }
+  }
+}
 #root {
   display: flex;
   flex-direction: column;
@@ -55,18 +80,6 @@ h3 {
   font-size: 32px;
   color: #003459;
   margin: none;
-}
-ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
-  padding: 0px;
-  line-height: 1.47rem;
-  color: #003459;
-  margin: none;
-  height: auto;
 }
 
 img:hover {
