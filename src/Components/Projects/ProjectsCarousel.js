@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import './Carousel.css';
-import SMOLCarousel from './Carousel'
+import './ProjCarousel.css';
+import SMOLCarousel from '../Carousel/Carousel'
 const Carousel = (props) => {
 
   const spinnerRef = React.useRef();
@@ -9,9 +9,9 @@ const Carousel = (props) => {
   const galleryspin = (sign) => {
 
     if (!sign) {
-      angle += 90;
+      angle += 60;
     } else {
-      angle -= 90;
+      angle -= 60;
     }
     if (spinnerRef.current) {
       spinnerRef.current.style.transform = `rotateY(${angle}deg)`

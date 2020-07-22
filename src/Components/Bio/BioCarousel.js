@@ -19,7 +19,7 @@ const Carousel = (props) => {
   }
 
   return (
-    <div id="carContainer3">
+    <div id="projects">
       <div id="carousel">
         <figure ref={spinnerRef} id="spinner">
           {props.bio.map(b =>

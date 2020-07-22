@@ -7,7 +7,7 @@ import BioPage from './Components/Bio/BioPage';
 import SkillsPage from './Components/Skills/SkillsPage';
 import ContactPage from './Components/ContactPage';
 import ResumePage from './Components/ResumePage';
-import ProjectsPage from './Components/ProjectsPage';
+import ProjectsPage from './Components/Projects/ProjectsPage';
 
 export default function App() {
   return (
