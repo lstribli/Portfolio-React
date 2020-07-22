@@ -29,10 +29,10 @@ figure#PROJspinner {
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform-origin: 50% 50% -140px;
-  -moz-transform-origin: 50% 50% -140px;
-  -ms-transform-origin: 50% 50% -140px;
-  -o-transform-origin: 50% 50% -140px;
+  -webkit-transform-origin: 50% 50% -250px;
+  -moz-transform-origin: 50% 50% -250px;
+  -ms-transform-origin: 50% 50% -250px;
+  -o-transform-origin: 50% 50% -250px;
   /* transform-origin: 50% 50% -140px; */
   transition: 1s;
   height: 400px;
@@ -123,10 +123,10 @@ figure#PROJspinner figcaption {
   max-width: 280px;
   position: absolute;
   left: 20%;
-  -webkit-transform-origin: 50% 50% -140px;
-  -moz-transform-origin: 50% 50% -140px;
-  -ms-transform-origin: 50% 50% -140px;
-  -o-transform-origin: 50% 50% -140px;
+  -webkit-transform-origin: 50% 50% -250px;
+  -moz-transform-origin: 50% 50% -250px;
+  -ms-transform-origin: 50% 50% -250px;
+  -o-transform-origin: 50% 50% -250px;
   /* transform-origin: 50% 50% -140px; */
   outline: 1px solid transparent;
 }
@@ -179,7 +179,7 @@ figure#PROJspinner figcaption:nth-child(6) {
 }
 
 .ss-icon:hover {
-  color: #71f075;
+  color: #8c00ff;
   cursor: pointer;
 }
 @media screen and (min-width: 360px) {
@@ -212,10 +212,10 @@ figure#PROJspinner figcaption:nth-child(6) {
     -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -140px;
-    -moz-transform-origin: 50% 50% -140px;
-    -ms-transform-origin: 50% 50% -140px;
-    -o-transform-origin: 50% 50% -140px;
+    -webkit-transform-origin: 50% 50% -250px;
+    -moz-transform-origin: 50% 50% -250px;
+    -ms-transform-origin: 50% 50% -250px;
+    -o-transform-origin: 50% 50% -250px;
     /* transform-origin: 50% 50% -140px; */
     transition: 1s;
     height: 400px;
@@ -299,10 +299,10 @@ figure#PROJspinner figcaption:nth-child(6) {
     max-width: 280px;
     position: absolute;
     left: 20%;
-    -webkit-transform-origin: 50% 50% -140px;
-    -moz-transform-origin: 50% 50% -140px;
-    -ms-transform-origin: 50% 50% -140px;
-    -o-transform-origin: 50% 50% -140px;
+    -webkit-transform-origin: 50% 50% -250px;
+    -moz-transform-origin: 50% 50% -250px;
+    -ms-transform-origin: 50% 50% -250px;
+    -o-transform-origin: 50% 50% -250px;
     /* transform-origin: 50% 50% -140px; */
     outline: 1px solid transparent;
   }
@@ -354,7 +354,7 @@ figure#PROJspinner figcaption:nth-child(6) {
     line-height: 0;
   }
   .ss-icon:hover {
-    color: #71f075;
+    color: #8c00ff;
     cursor: pointer;
   }
 }
@@ -388,10 +388,10 @@ figure#PROJspinner figcaption:nth-child(6) {
     -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -140px;
-    -moz-transform-origin: 50% 50% -140px;
-    -ms-transform-origin: 50% 50% -140px;
-    -o-transform-origin: 50% 50% -140px;
+    -webkit-transform-origin: 50% 50% -250px;
+    -moz-transform-origin: 50% 50% -250px;
+    -ms-transform-origin: 50% 50% -250px;
+    -o-transform-origin: 50% 50% -250px;
     /* transform-origin: 50% 50% -140px; */
     transition: 1s;
     height: 400px;
@@ -513,7 +513,7 @@ figure#PROJspinner figcaption:nth-child(6) {
   }
   .ss-icon {
     position: fixed;
-    color: #13315c;
+    color: #71f075;
     display: inline-block;
     text-decoration: none;
     font-size: 3.5rem;
@@ -526,7 +526,7 @@ figure#PROJspinner figcaption:nth-child(6) {
   }
 
   .ss-icon:hover {
-    color: #71f075;
+    color: #8c00ff;
     cursor: pointer;
   }
 }
@@ -560,10 +560,10 @@ figure#PROJspinner figcaption:nth-child(6) {
     -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50% -200px;
-    -moz-transform-origin: 50% 50% -200px;
-    -ms-transform-origin: 50% 50% -200px;
-    -o-transform-origin: 50% 50% -200;
+    -webkit-transform-origin: 50% 50% -250px;
+    -moz-transform-origin: 50% 50% -250px;
+    -ms-transform-origin: 50% 50% -250px;
+    -o-transform-origin: 50% 50% -250px;
     /* transform-origin: 50% 50% -200px; */
     transition: 1s;
     height: 1000px;
@@ -681,7 +681,7 @@ figure#PROJspinner figcaption:nth-child(6) {
   }
   .ss-icon {
     position: fixed;
-    color: #13315c;
+    color: #71f075;
     display: inline-block;
     text-decoration: none;
     font-size: 5rem;
@@ -693,7 +693,7 @@ figure#PROJspinner figcaption:nth-child(6) {
     line-height: 0;
   }
   .ss-icon:hover {
-    color: #71f075;
+    color: #8c00ff;
     cursor: pointer;
   }
 }
@@ -847,7 +847,7 @@ figure#PROJspinner figcaption:nth-child(6) {
   }
   .ss-icon {
     position: fixed;
-    color: #13315c;
+    color: #71f075;
     display: inline-block;
     text-decoration: none;
     font-size: 5rem;
@@ -860,7 +860,7 @@ figure#PROJspinner figcaption:nth-child(6) {
   }
 
   .ss-icon:hover {
-    color: #71f075;
+    color: #8c00ff;
     cursor: pointer;
   }
 }

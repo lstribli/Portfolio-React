@@ -201,7 +201,7 @@ const portContext = React.createContext({
         }
       },
       urls: {
-        frontEnd: "https://spaced-repetition-amber.vercel.app/register",
+        frontEnd: "https://spaced-repetition-amber.vercel.app",
         server: "",
         database: "",
         github: "https://github.com/thinkful-ei-narwhal/spaced-repetition-server-Jacob-Logan",

@@ -17,11 +17,11 @@ export default function App() {
       </header>
       <main>
         <Switch>
-          <Route
+          {/* <Route
             exact
             path="/"
-            component={HomePage}
-          />
+            component={BioPage}
+          /> */}
           <Route
             exact
             path="/bio"
