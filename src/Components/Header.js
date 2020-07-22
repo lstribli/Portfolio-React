@@ -25,11 +25,11 @@ export default function Header() {
             contact
             </button>
         </Link>
-        <Link to='/resume'>
+        {/* <Link to='/resume'>
           <button>
             resume
             </button>
-        </Link>
+        </Link> */}
         <Link to='/skills'>
           <button>
             skills

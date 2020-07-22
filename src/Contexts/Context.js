@@ -391,182 +391,24 @@ const portContext = React.createContext({
   contact: [
     {
       id: 1,
-      general: {
-        title: "Aura",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
+      icon: "https://media.discordapp.net/attachments/701514992767205459/735626606089076766/images.png",
+      link: "https://www.linkedin.com/in/logan-stribling/"
     },
-
-
     {
       id: 2,
-      general: {
-        title: "RageQuit! 2x+",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
+      icon: "https://media.discordapp.net/attachments/701514992767205459/735629125389254727/github-icon-design-vector-png_115671.jpg",
+      link: "https://github.com/lstribli"
     },
-
-
     {
       id: 3,
-      general: {
-        title: "Jquery Portfolio",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
+      icon: "https://media.discordapp.net/attachments/701514992767205459/735629946965459014/hqdefault.jpg",
+      link: "mailto:logan.stribling@gmail.com"
     },
-
-
     {
-      id: 4,
-      general: {
-        title: "QuizApp",
-        description: "",
-        audience: "",
-      },
-      tech: {
-        languages: {
-          frontEnd: "",
-          server: "",
-          database: ""
-        },
-        libraries: [],
-        localTech: {
-          editor: "",
-          CLI: "",
-          packageManager: "",
-        }
-      },
-      urls: {
-        frontEnd: "",
-        server: "",
-        database: "",
-        github: "",
-      },
-      screens: {
-        urls: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        },
-        alts: {
-          1: "",
-          2: "",
-          3: "",
-          4: "",
-          5: "",
-        }
-      }
-    }
+      id: 3,
+      icon: "https://media.discordapp.net/attachments/701514992767205459/735629548254920744/download_1_2.jpg",
+      link: "tel:505-488-3718"
+    },
   ],
   resume: [
     {

@@ -20,25 +20,27 @@ const Carousel = (props) => {
 
   return (
     <div id="projects">
-      <div id="carousel">
-        <figure ref={spinnerRef} id="spinner">
-          {props.bio.map(b =>
-            <figcaption key={b.id}>
-              <div id="captionContainer">
-                <div id="captionSubContainer">
-                  <h2>{b.title}</h2>
-                  {/* <SMOLCarousel /> */}
-                  <a href={""} target="none"><img src={b.url} /></a>
-                  <p>{b.desc}</p>
+      <div id="carContainer">
+        <div id="carousel">
+          <figure ref={spinnerRef} id="spinner">
+            {props.bio.map(b =>
+              <figcaption key={b.id}>
+                <div id="captionContainer">
+                  <div id="captionSubContainer">
+                    <h2>{b.title}</h2>
+                    {/* <SMOLCarousel /> */}
+                    <a href={""} target="none"><img src={b.url} /></a>
+                    <p>{b.desc}</p>
+                  </div>
                 </div>
-              </div>
-            </figcaption>
-          )}
-        </figure>
-      </div>
-      <div className="buttonsContainer">
-        <span style={{ float: 'left' }} className="ss-icon" onClick={() => galleryspin('-')}>&lt;</span>
-        <span style={{ float: 'right' }} className="ss-icon" onClick={() => galleryspin('')}>&gt;</span>
+              </figcaption>
+            )}
+          </figure>
+        </div>
+        <div className="buttonsContainer">
+          <span style={{ float: 'left' }} className="ss-icon" onClick={() => galleryspin('-')}>&lt;</span>
+          <span style={{ float: 'right' }} className="ss-icon" onClick={() => galleryspin('')}>&gt;</span>
+        </div>
       </div>
     </div>
   );
