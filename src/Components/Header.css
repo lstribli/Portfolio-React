@@ -253,11 +253,13 @@ header img {
     margin: none;
   }
   header img {
-    max-width: 60px;
-    height: 60px;
+    max-width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 2px black;
     margin: 0px;
+    margin-top: 50px;
+    margin-right: 50px;
   }
   .nav {
     display: flex;
