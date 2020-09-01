@@ -9,9 +9,9 @@ const Carousel = (props) => {
   const galleryspin = (sign) => {
 
     if (!sign) {
-      angle += 60;
+      angle += 90;
     } else {
-      angle -= 60;
+      angle -= 90;
     }
     if (spinnerRef.current) {
       spinnerRef.current.style.transform = `rotateY(${angle}deg)`
