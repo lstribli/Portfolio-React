@@ -234,7 +234,7 @@ const portContext = React.createContext({
         languages: {
           frontEnd: ['Solidworks', "Solidworks - Flow Express", "Solidworks - Photoview 360", "Solidworks - Simulation", "SolidCAM", 'SolidCAM 5-axis and Mill-turn with iMachining'],
           server: ['Part-cost analysis'],
-          database: ['5S', 'Kanban', 'DC PCB Engineering', 'ElectroMechanical Engineering and Programming']
+          database: ['5S', 'Kanban', 'PCB Engineering', 'ElectroMechanical Engineering and Programming']
         },
         libraries: [],
         localTech: {
